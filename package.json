@@ -1,0 +1,27 @@
+{
+  "name": "xiezijie_demo",
+  "version": "1.0.0",
+  "private": false,
+  "main": "./dist/xiezijie_demo.umd.min.js",
+  "files": [
+    "dist/xiezijie_demo.umd.min.js",
+    "dist/xiezijie_demo.css"
+  ],
+  "scripts": {
+    "test": "vue-cli-service serve ./example/index.js",
+    "build": "vue-cli-service build",
+    "package": "vue-cli-service build --target lib --name xiezijie_demo ./src/main.js",
+    "patch": "npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "major": "npm version major && npm publish"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
