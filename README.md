@@ -1,19 +1,3 @@
-# xiezijie_demo
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 掘金文章地址
+[https://juejin.im/post/6889349938937856013](https://juejin.im/post/6889349938937856013)
+希望有机会和各位大佬交流学习~
